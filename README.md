@@ -50,7 +50,7 @@ O código está organizado de forma modular para separar a implementação da es
 
 ![Diagrama de Classes](assets/diagramaDeClasses.png)
 
-## 5. Como Executar o Projeto
+## 6. Como Executar o Projeto
 
 ### Pré-requisitos
 
@@ -70,7 +70,7 @@ python3 main.py
 
 O script irá criar uma Árvore-B.
 
-## 6. Contratos Implementados
+## 7. Contratos Implementados
 
 Conforme os critérios de avaliação do trabalho:
 
@@ -84,7 +84,7 @@ Conforme os critérios de avaliação do trabalho:
 | **Pós-condição**| O número de filhos em cada nó obedece aos limites de $t$ e $2t$. |
 | **Pós-condição**| O nível da árvore só pode aumentar ou diminuir em 1 após operações de divisão ou fusão na raiz. |
 
-## 7. Autores
+## 8. Autores
 
 - [Danilo Tertuliano](https://github.com/DaniloCTM)
 - [Luciano de Freitas](https://github.com/luciano-freitas-melo)
