@@ -50,7 +50,7 @@ O código está organizado de forma modular para separar a implementação da es
 
 ## 5. Diagrama de classes
 
-![Diagrama de Classes](assets/diagramaDeClasses.png)
+![Diagrama de Classes](assets/diagrama_classes.jpeg)
 
 ## 6. Como Executar o Projeto
 
