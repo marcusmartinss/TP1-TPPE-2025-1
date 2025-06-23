@@ -14,23 +14,23 @@ Este projeto consiste na implementação da estrutura de dados **Árvore-B** (*B
 
 A Árvore-B é uma estrutura de dados de árvore auto-balanceada, otimizada para sistemas que lidam com grandes volumes de dados, como bancos de dados e sistemas de arquivos. Suas características principais incluem:
 
-- ✅ **Balanceamento:** Todos os nós folha se encontram no mesmo nível.
+- **Balanceamento:** Todos os nós folha se encontram no mesmo nível.
 
-- ✅ **Nós com Múltiplas Chaves:** Os nós podem armazenar várias chaves e ter múltiplos filhos.
+- **Nós com Múltiplas Chaves:** Os nós podem armazenar várias chaves e ter múltiplos filhos.
 
-- ✅ **Ordem da Árvore:** Um delimitador `t` ou `ordem` define o número mínimo e máximo de chaves e filhos que um nó pode ter, garantindo que a árvore não se degenere.
+- **Ordem da Árvore:** Um delimitador `t` ou `ordem` define o número mínimo e máximo de chaves e filhos que um nó pode ter, garantindo que a árvore não se degenere.
 
-- ✅ **Ordenação:** As chaves dentro de cada nó são mantidas em ordem crescente.
+- **Ordenação:** As chaves dentro de cada nó são mantidas em ordem crescente.
 
 As operações primárias implementadas são **Busca**, **Inserção** e **Remoção** de chaves.
 
 ## 3. Tecnologias e Ferramentas
 
-  * 🐍 **Linguagem:** Python 3
-  * 📦 **Gerenciamento de Dependências:** Pip
-  * 🧠 **Paradigma:** Programação Orientada a Objetos
-  * 🔗 **Design by Contracts:** Biblioteca `icontract`
-  * 🧪 **Testes:** Biblioteca `pytest`
+  * **Linguagem:** Python 3
+  * **Gerenciamento de Dependências:** Pip
+  * **Paradigma:** Programação Orientada a Objetos
+  * **Design by Contracts:** Biblioteca `icontract`
+  * **Testes:** Biblioteca `pytest`
 
 O uso da biblioteca `icontract` permite a definição formal dos contratos (invariantes, pré e pós-condições) diretamente no código através de decoradores.
 
@@ -54,17 +54,17 @@ O código está organizado de forma modular para separar a implementação da es
 
 ## 6. Como Executar o Projeto
 
-### ✔️ Pré-requisitos
+### Pré-requisitos
 
 Certifique-se de ter o Python 3 instalado. Você precisará instalar a biblioteca `icontract`.
 
-### ✔️ Instalação das Dependências
+### Instalação das Dependências
 
 ```bash
 pip install icontract pytest
 ```
 
-### ✔️ Execução
+### Execução
 
 Para rodar a demonstração e os testes, execute o script `main.py` a partir da raiz do repositório:
 
@@ -74,15 +74,15 @@ python3 main.py
 
 O script irá criar uma Árvore-B.
 
-### ✔️ Executando os Testes Automatizados
+### Executando os Testes Automatizados
 Os testes estão localizados na pasta tests/ e são construídos usando a biblioteca pytest.
 
-#### ➕ Rodando todos os testes:
+#### Rodando todos os testes:
 ```bash
 pytest
 ```
 
-#### ➕ Rodando com saída detalhada:
+#### Rodando com saída detalhada:
 ```bash
 pytest -v
 ```
@@ -103,7 +103,7 @@ Conforme os critérios de avaliação do trabalho:
 
 ## 8. Autores
 
-- [Danilo Tertuliano](https://github.com/DaniloCTM)
-- [Luciano de Freitas](https://github.com/luciano-freitas-melo)
-- [Luiz Pettengill](https://github.com/LuizPettengill)
-- [Marcus Martins](https://github.com/marcusmartinss)
+- [Danilo Tertuliano](https://github.com/DaniloCTM) - 221031149
+- [Luciano de Freitas](https://github.com/luciano-freitas-melo) - 202016847
+- [Luiz Pettengill](https://github.com/LuizPettengill) - 150138202
+- [Marcus Martins](https://github.com/marcusmartinss) - 211043683
